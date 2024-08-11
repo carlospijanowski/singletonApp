@@ -17,6 +17,8 @@ public class PrecisaFazerApenasUmaVez {
             if (Objects.isNull(getInstance)){
                 log.info("criando a primeira vez");
                 getInstance = new PrecisaFazerApenasUmaVez();
+                //TODO CRIE OU CHAME METODOS PARA SEREM EXECUTADOS APENAS UMA VEZ AQUI
+                log.info("TODO CRIE OU CHAME METODOS PARA SEREM EXECUTADOS APENAS UMA VEZ AQUI");
                 return;
             }
         }
